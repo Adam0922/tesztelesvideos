@@ -1,0 +1,317 @@
+{
+  "id": "fa99266c-dd55-481d-bb1a-077d63aafed8",
+  "version": "2.0",
+  "name": "teszt",
+  "url": "http://127.0.0.1:5500",
+  "tests": [{
+    "id": "9f88e494-8d30-4a6e-bb31-36fd07a786ad",
+    "name": "teszt",
+    "commands": [{
+      "id": "3c4ac407-b5b9-4d98-8934-427bd6b4e4cc",
+      "comment": "",
+      "command": "open",
+      "target": "/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68f97788-522d-419c-9446-bb8aa7734616",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38d9e1ae-3833-4d96-a5e4-a88eec186559",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c0f1cb0-6114-4aec-a67d-6c4c9036fe81",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "dawdawd"
+    }, {
+      "id": "a1b26a9c-e38b-485a-93be-1a4048180720",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd0037e5-7a4e-4e19-979e-4410d9c5fbc5",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "fawfawfaw"
+    }, {
+      "id": "0896633c-a688-4126-a4dd-8ba438b1f26d",
+      "comment": "",
+      "command": "click",
+      "target": "id=gomb",
+      "targets": [
+        ["id=gomb", "id"],
+        ["css=#gomb", "css:finder"],
+        ["xpath=//button[@id='gomb']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Tovább')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "802c3c61-8e91-42a4-937e-5b98e91f67cb",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Rossz e-mail cím vagy jelszó!",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b34136ae-898b-4c42-9d8c-ef97a072cf41",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4bfbff4-2774-44f8-9937-ee601de80ed7",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "fulopbutus@gmail.com"
+    }, {
+      "id": "a1046201-5df0-463b-b190-b20d46413e4f",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2)",
+      "targets": [
+        ["css=div:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]", "xpath:position"],
+        ["xpath=//div[contains(.,'Password:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99b25143-4eac-4466-84f0-46e0341d938b",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "jelszo12345"
+    }, {
+      "id": "b8c530c8-67b0-40c1-9eff-8955d93a70e3",
+      "comment": "",
+      "command": "click",
+      "target": "id=gomb",
+      "targets": [
+        ["id=gomb", "id"],
+        ["css=#gomb", "css:finder"],
+        ["xpath=//button[@id='gomb']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Tovább')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0295d1e9-b20d-4be0-a997-da233a8790ad",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Rossz e-mail cím vagy jelszó!",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94e27cbb-14a1-4cc2-a6f4-2bce4e773bf3",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76899032-4675-44a2-9437-26f77eb4cf07",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "fulopbutuska@gmail.com"
+    }, {
+      "id": "c671cbd8-6c4e-4171-9c06-92ce9414f37d",
+      "comment": "",
+      "command": "click",
+      "target": "id=gomb",
+      "targets": [
+        ["id=gomb", "id"],
+        ["css=#gomb", "css:finder"],
+        ["xpath=//button[@id='gomb']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Tovább')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f95065ba-813d-4f09-8e89-1146a063f2b7",
+      "comment": "",
+      "command": "click",
+      "target": "id=be",
+      "targets": [
+        ["id=be", "id"],
+        ["css=#be", "css:finder"],
+        ["xpath=//input[@id='be']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ab4a719-a5b6-4c22-8f9d-42061f9862e3",
+      "comment": "",
+      "command": "click",
+      "target": "id=be",
+      "targets": [
+        ["id=be", "id"],
+        ["css=#be", "css:finder"],
+        ["xpath=//input[@id='be']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "464c3e39-6f41-461e-a72a-f27c69325d69",
+      "comment": "",
+      "command": "type",
+      "target": "id=be",
+      "targets": [
+        ["id=be", "id"],
+        ["css=#be", "css:finder"],
+        ["xpath=//input[@id='be']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "4 éve"
+    }, {
+      "id": "6aa70953-b074-477d-9a95-7883ad30b1bc",
+      "comment": "",
+      "command": "click",
+      "target": "id=gomb",
+      "targets": [
+        ["id=gomb", "id"],
+        ["css=#gomb", "css:finder"],
+        ["xpath=//button[@id='gomb']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Tovább')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f44b8ec8-dff4-4025-946a-16d6f25d6e30",
+      "comment": "",
+      "command": "click",
+      "target": "id=yesnem",
+      "targets": [
+        ["id=yesnem", "id"],
+        ["xpath=//button[@id='yesnem']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Igen')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e71e0b6-434a-47bd-8f2d-f0c433b7ccf7",
+      "comment": "",
+      "command": "click",
+      "target": "id=gomb",
+      "targets": [
+        ["id=gomb", "id"],
+        ["css=#gomb", "css:finder"],
+        ["xpath=//button[@id='gomb']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Vissza')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4c15757-5363-4f52-9bf5-ee49c1276f10",
+      "comment": "",
+      "command": "click",
+      "target": "id=yesnem",
+      "targets": [
+        ["id=yesnem", "id"],
+        ["xpath=//button[@id='yesnem']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Igen')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3616e7ca-33d8-4385-9894-28351f5aea41",
+      "comment": "",
+      "command": "click",
+      "target": "id=gomb",
+      "targets": [
+        ["id=gomb", "id"],
+        ["css=#gomb", "css:finder"],
+        ["xpath=//button[@id='gomb']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Vissza')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8d2c4ae-5839-4aff-a8f8-a1d86a3124a6",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//button[@id='yesnem'])[2]",
+      "targets": [
+        ["xpath=(//button[@id='yesnem'])[2]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Nem')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3147401f-9bd8-4c72-9c84-3f9ba949f8d9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9f88e494-8d30-4a6e-bb31-36fd07a786ad"]
+  }],
+  "urls": ["http://127.0.0.1:5500/"],
+  "plugins": []
+}
